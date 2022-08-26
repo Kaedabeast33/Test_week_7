@@ -1,0 +1,9 @@
+th {
+    border:1px rgb(116, 235, 135) solid;
+   
+}
+td{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1px black solid;
+}

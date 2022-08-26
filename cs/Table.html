@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <table style="border: 3px solid rgb(207, 0, 0);
+                    ;">
+        <tr>
+            <th></th>
+            <th>Tiny Array</th>
+            <th>Small Array</th>
+            <th>Medium Array</th>
+            <th>Large Array</th>
+            <th>XL Array</th>
+        </tr>
+
+        <tr>
+            <th>Doubler Append</td>
+            <td>.07</td>
+            <td>.06 ms</td>
+            <td>.10 ms</td>
+            <td>0.55 ms</td>
+            <td>1.7 ms</td>
+        </tr>
+        <tr>
+            <th>Doubler Insert</td>
+            <td>.018</td>
+            <td>.02 ms</td>
+            <td>0.13 ms</td>
+            <td>6.9 ms</td>
+            <td>797.5 ms</td>
+        </tr>
+    </table>
+    <h1>Conclusion</h1>
+    <p>the Append by far scales better, even though the .unshift is better in the beginning it is quickly outmatched.</p>
+</body>
+</html>
